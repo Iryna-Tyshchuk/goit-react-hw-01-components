@@ -1,0 +1,6 @@
+.stats {
+  display: flex;
+  margin-top: 1.2em;
+  justify-content: space-between;
+  gap: 20px;
+}
