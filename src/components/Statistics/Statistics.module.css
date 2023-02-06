@@ -1,6 +1,13 @@
-.statlist {
+.stat_list {
   display: flex;
   margin-top: 1.2em;
   justify-content: space-between;
   gap: 20px;
+}
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: 1px solid grey;
+  padding: 15px;
 }

@@ -1,6 +1,25 @@
-.friendlist {
+.friend_list {
   display: flex;
   margin-top: 1.2em;
+  flex-direction: column;
   justify-content: space-between;
   gap: 20px;
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.status_red {
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  background-color: red;
+}
+.status_green {
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  background-color: green;
 }

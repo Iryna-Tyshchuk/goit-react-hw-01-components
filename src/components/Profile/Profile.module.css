@@ -1,6 +1,15 @@
 .stats {
   display: flex;
   margin-top: 1.2em;
+  align-items: center;
   justify-content: space-between;
   gap: 20px;
+}
+.description img {
+  border-radius: 50%;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
